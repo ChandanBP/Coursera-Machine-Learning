@@ -17,7 +17,7 @@ negetives=find(y==0);
 
 plot(X(positives,1),X(positives,2),'k+','LineWidth',1, 'MarkerSize',7);
 
-plot(X(negetives,1),X(negetives,2),'ko','LineWidth',1, 'MarkerSize',7,'MarkerFaceColor','y');
+plot(X(negetives,1),X(negetives,2),'ko','LineWidth',1, 'MarkerSize',7,'MarkerFaceColor','y');  
 
 hold off;
 
